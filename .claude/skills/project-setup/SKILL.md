@@ -102,10 +102,12 @@ disable-model-invocation: true
 ```bash
 git config commit.template .gitmessage
 ```
+## Step 7. 슬래시 커맨드 세팅
+templates/commands/ 안의 파일들을 프로젝트의 `.claude/commands/`에 복사해.
 
 ---
 
-## Step 7. 완료 보고
+## Step 8. 완료 보고
 
 모든 세팅이 완료되면 아래 형식으로 요약해줘:
 
