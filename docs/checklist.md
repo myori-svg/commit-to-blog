@@ -3,24 +3,24 @@
 ## 1. 프로젝트 세팅
 
 ### Frontend
-- [ ] Vite + React + TypeScript 초기화
+- [x] Vite + React + TypeScript 초기화
 - [ ] Tailwind CSS v4 설정
 - [ ] Biome 설정 (lint + format)
 - [ ] 디렉토리 구조 생성 (components / hooks / api / pages)
 
 ### Backend
-- [ ] Express + TypeScript 초기화
-- [ ] mongoose, dotenv, cors 설치 및 기본 서버 세팅 (`server/src/index.js`)
+- [x] Express + TypeScript 초기화 *(계획 변경: TypeScript 미적용, JS로 작성)*
+- [x] mongoose, dotenv, cors 설치 및 기본 서버 세팅 (`server/index.js`)
 - [ ] MongoDB Atlas 연결 확인
 - [ ] Biome 설정
-- [ ] `.env` 파일 생성 및 `.gitignore` 등록
+- [x] `.env` 파일 생성 및 `.gitignore` 등록
 
 ---
 
 ## 2. GitHub 연동
 
-- [ ] GitHub OAuth 또는 Personal Access Token 인증 처리 (서버에서만)
-- [ ] GitHub API (GraphQL) - Repository 목록 조회
+- [x] GitHub OAuth 또는 Personal Access Token 인증 처리 (서버에서만)
+- [x] GitHub API (GraphQL) - Repository 목록 조회
 - [ ] GitHub API - 브랜치 목록 조회
 - [ ] GitHub API - 커밋 목록 조회
 - [ ] GitHub API - 특정 커밋 diff/파일 변경사항 조회
@@ -63,6 +63,6 @@
 
 ## 6. 보안 / 제약
 
-- [ ] GitHub API 토큰 서버에서만 사용 확인
+- [x] GitHub API 토큰 서버에서만 사용 확인
 - [ ] OpenAI API 키 클라이언트 미노출 확인
-- [ ] `.env` 파일 `.gitignore` 등록 확인
+- [x] `.env` 파일 `.gitignore` 등록 확인
